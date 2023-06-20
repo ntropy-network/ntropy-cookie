@@ -2,7 +2,7 @@
 
 A financial assistant using LLMs and Ntropy transaction enrichment.
 
-This code accompanies the Ntropy Cookie post.
+This code accompanies our blog post [Your AI Copilot for finance](https://blog.ntropy.com/).
 
 ## How to run
 
