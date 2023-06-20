@@ -11,7 +11,6 @@ from cookie.user_store import UserStore
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
-    del os.environ["NTROPY_API_KEY"]
     load_dotenv()
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
