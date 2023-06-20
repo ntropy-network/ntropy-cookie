@@ -14,7 +14,7 @@ from cookie.ntropy import enrich
 from cookie.openai import ChatSession
 from cookie.prompts import prompt_commands
 from cookie.transaction_formatting import (
-    csv_format_transactions,
+    prompt_format_transactions,
     table_format_transactions,
 )
 from cookie.transactions import EnrichedTransaction, UnregisteredUser
@@ -208,7 +208,7 @@ async def prompt_and_respond(
         return
 
     logger.info("Building txs csv")
-    transaction_csv = csv_format_transactions(transactions)
+    transaction_csv = prompt_format_transactions(transactions)
 
     system_prompt = (
         f"You are transaction-gpt and today is {date.today()}. "

@@ -32,7 +32,7 @@ def table_format_transactions(
     return table
 
 
-def csv_format_transactions(
+def prompt_format_transactions(
     transactions: list[EnrichedTransaction],
 ) -> str:
     grouped_transactions: dict[str, EnrichedTransaction] = {}
