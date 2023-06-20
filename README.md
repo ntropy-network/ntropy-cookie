@@ -18,8 +18,8 @@ This code accompanies the Ntropy Cookie post.
 
 ## Using the bot
 
-1. Open direct message your bot
-2. Upload a csv with /hello_csv. The csv format:
+1. Open direct message with your bot
+2. Upload a csv with `/hello_csv`. The csv format:
    ```csv
    date,description,entry_type,amount,iso_currency_code,account_holder_id,account_holder_type
    2023-01-24,Transaction description,credit,123,USD,demo-ah,consumer
@@ -27,4 +27,4 @@ This code accompanies the Ntropy Cookie post.
    ```
 3. Use `/prompt <text>` for free-form questions, or one of the premade commands like `/savings_opportunities`
 4. When you ran a command, you can also chat with the bot directly, eg. to ask it to correct itself. The context resets whenever you run a new command.
-5. Use `/forget` to unlink your transactions, you can then use `/hello_csv` again as in step 3.
+5. Use `/forget` to unlink your transactions, you can then use `/hello_csv` again as in step 2.
