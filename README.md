@@ -2,7 +2,7 @@
 
 A financial assistant using LLMs and Ntropy transaction enrichment.
 
-This code accompanies our blog post [Your AI Copilot for finance](https://blog.ntropy.com/).
+This code accompanies our blog post [The new pursuit for a Mint alternative: powered by AI](http://ntropy.com/post/pursuit-for-a-mint-alternative-powered-by-ai?utm_content=c0d4&utm_source=github).
 
 ## How to run
 
